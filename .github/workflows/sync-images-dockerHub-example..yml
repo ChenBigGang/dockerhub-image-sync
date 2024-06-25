@@ -34,5 +34,5 @@ jobs:
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
         #!/usr/bin/env bash
-        skopeo copy docker://docker.io/wordpress:6-php8.3-apache docker://registry.cn-hangzhou.aliyuncs.com/twofish_dockerhub_mirror/wordpress:6-php8.3-apache
+        skopeo copy docker://docker.io/halohub/halo:2.16.3 docker://registry.cn-hangzhou.aliyuncs.com/twofish_dockerhub_mirror/halo:2.16.3
  
