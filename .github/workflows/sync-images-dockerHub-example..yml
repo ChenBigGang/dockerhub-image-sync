@@ -34,5 +34,5 @@ jobs:
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
         #!/usr/bin/env bash
-        skopeo copy docker://docker.io/halohub/halo:2.17.0 docker://registry.cn-hangzhou.aliyuncs.com/twofish_dockerhub_mirror/halo:2.17.0
+        skopeo copy docker://docker.io/ollama/ollama:0.5.4 docker://registry.cn-hangzhou.aliyuncs.com/twofish_dockerhub_mirror/ollama:0.5.4
  
